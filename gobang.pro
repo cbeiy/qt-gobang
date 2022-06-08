@@ -25,10 +25,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        widget.cpp
+        widget.cpp \
+    gobang.cpp \
+    ai.cpp
 
 HEADERS += \
-        widget.h
+        widget.h \
+    gobang.h \
+    ai.h
 
 FORMS += \
-        widget.ui
+        widget.ui \
+    gobang.ui
