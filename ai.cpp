@@ -287,7 +287,7 @@ int _AI::dfs(int board[15][15], int depth, int alpha, int beta){
 
     //搜索到指定深度或者对局结束
     if(depth==DEPTH||eval.r!=DRAW){
-        nodenum++;
+        nodenum++;  //计数
         if(depth==DEPTH){
             POS pos = chooseBest10(board);
             qDebug()<< "到达DEPTH  " << pos.score[0];
